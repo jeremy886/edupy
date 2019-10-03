@@ -11,6 +11,8 @@ class Die:
     def roll(self):
         print(choice(self.faces))
 
-die = Die(["+", "-", "×", "÷"])
-die.roll()
-die.roll()
+
+if __name__ == "__main__":
+    die = Die(["+", "-", "×", "÷"])
+    die.roll()
+    die.roll()
